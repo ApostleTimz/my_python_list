@@ -10,3 +10,17 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+# Initial weekly records
+money = [1000, 1200, 800, 1500, 1100]
+
+
+total_before_correction = sum(money)
+money[2]=1000
+reversed_money = list(reversed(money))
+total_after_correction = sum(money)
+print(total_before_correction)
+print(money)
+print(reversed_money)
+print(total_after_correction)
+
